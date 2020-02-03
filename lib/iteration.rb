@@ -27,7 +27,6 @@ end
 
 def total_even_pairs(src)
   row_index = 0
-  total_a = []
   total = 0
 
   while row_index < src.count do
@@ -38,7 +37,7 @@ def total_even_pairs(src)
 
     row_index += 1
   end
-  
+
   total
 end
 
